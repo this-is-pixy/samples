@@ -2,6 +2,7 @@
 # استفاده از دوربین بدون دسترسی
 &#x202b;
 .برای استفاده از دوربین و ثبت تصاویر بدون دسترسی لازم است مطابق کد عمل کنید
+&#x202b;
 با توجه به [قوانین کافه‌بازار](https://developers.cafebazaar.ir/fa/app-publish-guidelines/) برنامه‌هایی که از دوربین دستگاه استفاده می‌کنند نباید از دسترسی زیر در برنامه استفاده کرده باشند
 ```kotlin
 <uses-permission android:name="android.permission.CAMERA"/>
@@ -17,7 +18,7 @@ startActivityForResult(cameraIntent, CAMERA_REQUEST)
 ```
 &#x202b;
 .پس‌از بازگشایی دوربین و ثبت تصویر، محتوا به برنامه برگشت داده می‌شود
-جهت دریافت تصویر مانند مثال زیر عمل می‌کنیم
+.جهت دریافت تصویر مانند مثال زیر عمل می‌کنیم
 ```Kotlin
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 super.onActivityResult(requestCode, resultCode, data)
