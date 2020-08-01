@@ -11,7 +11,7 @@
 ##### .جهت پیاده‌سازی این مورد لازم است طبق مراحل زیر عمل کنید
 
 &#x202b;
-ابتدا با استفاده از قطع کد زیر درخواست بازگشایی دوربین دستگاه را ارسال می‌کنیم
+ابتدا با استفاده از کد زیر درخواست بازگشایی دوربین دستگاه را ارسال می‌کنیم
 ```Kotlin
 val cameraIntent = Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE)
 startActivityForResult(cameraIntent, CAMERA_REQUEST)
