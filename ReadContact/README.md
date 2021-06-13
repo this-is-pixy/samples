@@ -34,9 +34,9 @@ public void onActivityResult(int reqCode, int resultCode, Intent data){
 ```Java
 Uri contactUri = data.getData(); 
 String[] projection = {
-    ContactsContract.CommonDataKinds.Phone.NUMBER, 
+	ContactsContract.CommonDataKinds.Phone.NUMBER, 
 	ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME,
-    ContactsContract.CommonDataKinds.Phone.CONTACT_ID
+    	ContactsContract.CommonDataKinds.Phone.CONTACT_ID
     }
 Cursor cursor = getContentResolver().query(contactUri, projection, null, null, null);
 cursor.moveToNext();
