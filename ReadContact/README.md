@@ -41,9 +41,9 @@ String[] projection = {
 Cursor cursor = getContentResolver().query(contactUri, projection, null, null, null);
 cursor.moveToNext();
 
-phone.id = cursor.getLong(cursor.getColumnIndex(projection[2]));
-phone.name = cursor.getString(cursor.getColumnIndex(projection[1]));
-phone.phoneNumber = cursor.getString(cursor.getColumnIndex(projection[0]));
+Long id = cursor.getLong(cursor.getColumnIndex(projection[2]));
+String name = cursor.getString(cursor.getColumnIndex(projection[1]));
+String phoneNumber = cursor.getString(cursor.getColumnIndex(projection[0]));
 
 ```
 
