@@ -4,7 +4,7 @@
 
 جهت برقراری تماس بدون استفاده از دسترسی `Call Phone` به صورت زیر عمل می‌کنیم.
 
-<div dir="rtl">
+<div dir="ltr">
   
 ```Java
 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:09xxxxxxxxx"))
