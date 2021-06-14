@@ -36,7 +36,7 @@ Uri contactUri = data.getData();
 String[] projection = {
 	ContactsContract.CommonDataKinds.Phone.NUMBER, 
 	ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME,
-    	ContactsContract.CommonDataKinds.Phone.CONTACT_ID
+    	ContactsContract.CommonDataKinds.Phone._ID
     }
 Cursor cursor = getContentResolver().query(contactUri, projection, null, null, null);
 cursor.moveToNext();
@@ -45,6 +45,7 @@ Long id = cursor.getLong(cursor.getColumnIndex(projection[2]));
 String name = cursor.getString(cursor.getColumnIndex(projection[1]));
 String phoneNumber = cursor.getString(cursor.getColumnIndex(projection[0]));
 
+cursor.close();
 ```
 
 </div>
