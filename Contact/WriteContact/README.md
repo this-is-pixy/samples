@@ -44,6 +44,6 @@ startActivity(intent);
 ```
 </div>
 
-`contactId` شناسه‌ی مخاطب مورد نظر می‌باشد که می‌توان [به این صورت](https://github.com/this-is-pixy/samples/tree/master/ReadContact) آن‌را دریافت کرد.
+`contactId` شناسه‌ی مخاطب مورد نظر می‌باشد که می‌توان [به این صورت](https://github.com/this-is-pixy/samples/tree/master/Contact/ReadContact) آن‌را دریافت کرد.
 
 </div>
