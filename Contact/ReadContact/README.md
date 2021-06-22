@@ -15,7 +15,7 @@ startActivityForResult(intent, {reqCode});
 
 `reqCode` هر مقدار دلخواه با تایپ `int` است که جهت ایجاد وجه تمایز بین نتیجه‌های برگشتی استفاده می‌شود.
 
-پس‌از انتخاب مخاطب توسط کاربر، نتیجه به تابع `onActivityResult` برمی‌گردد
+پس‌از انتخاب مخاطب توسط کاربر، نتیجه به متود `onActivityResult` برمی‌گردد
 
 <div dir="ltr">
 
