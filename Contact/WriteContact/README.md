@@ -1,7 +1,7 @@
 <div dir="rtl">
 
  ### افزودن مخاطب
-جهت افزودن مخاطب از طریق `Intent` از کد زیر استفاده کنید.
+جهت افزودن مخاطب از طریق "Intent" از کد زیر استفاده کنید.
 
 <div dir="ltr">
 
@@ -18,7 +18,7 @@ startActivity(intent);
 ```
 </div>
 
-درصورت تمایل به بسته شدن خودکار صفحه‌ی مخاطبین مقدار زیر را همراه با Intent ارسال کنید.
+درصورت تمایل به بسته شدن خودکار صفحه‌ی مخاطبین مقدار زیر را همراه با "Intent" ارسال کنید.
 
 <div dir="ltr">
 
@@ -44,6 +44,6 @@ startActivity(intent);
 ```
 </div>
 
-`contactID` شناسه‌ی مخاطب مورد نظر می‌باشد که می‌توان [به این صورت](https://github.com/this-is-pixy/samples/tree/master/Contact/ReadContact) آن‌را دریافت کرد.
+"contactID" شناسه‌ی مخاطب مورد نظر می‌باشد که می‌توان [به این صورت](https://github.com/this-is-pixy/samples/tree/master/Contact/ReadContact) آن‌را دریافت کرد.
 
 </div>
