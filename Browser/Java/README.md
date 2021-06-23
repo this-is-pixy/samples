@@ -51,7 +51,7 @@ header('Location: https://myapplication.ir?q=valuee&s=success');
 https://myapplication.ir?q=valuee&s=success
 ```
 <div dir="rtl">
-پس‌از اجرای "PaymentActivity" توسط مرورگر، متود زیر صدا زده خواهد شد.
+پس‌از اجرای "PaymentActivity" توسط مرورگر، روش زیر صدا زده خواهد شد.
 </div>
 
 ```Java
